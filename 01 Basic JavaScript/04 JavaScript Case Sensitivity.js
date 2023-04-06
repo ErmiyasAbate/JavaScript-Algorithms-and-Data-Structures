@@ -3,6 +3,7 @@ MYVAR is not the same as MyVar or myvar*/
 
 /* The best practice in writing JavaScript variables
 is using Camel Case */
+var myVariable;
 var someVariable;
 var anotherVariableName;
 var thisVariableNameIsSoLong;
