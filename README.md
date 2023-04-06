@@ -6,3 +6,4 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 
 1. Comment Your JavaScript Code
 2. Declare JavaScript Variables
+3. Storing values with the Assignment operator
