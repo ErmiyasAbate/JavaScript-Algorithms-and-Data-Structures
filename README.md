@@ -9,3 +9,4 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 3. Storing values with the Assignment operator
 4. JavaScript Case Sensitivity
 5. var VS let
+6. Read-only Variables
