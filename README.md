@@ -1,6 +1,4 @@
-﻿# JavaScript Algorithms and Data Structures
-
-## Courses
+﻿## JavaScript Algorithms and Data Structures
 
 ### Basic JavaScript
 
