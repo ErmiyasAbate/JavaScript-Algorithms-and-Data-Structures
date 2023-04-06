@@ -12,3 +12,4 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 6. Read-only Variables
 7. Arithmetic Operations
 8. Incrementing/Decrementing Variables
+9. Compound Assignment with Arithmetic Operations
