@@ -4,7 +4,7 @@
 
 1. [Comment Your JavaScript Code](01%20JavaScript%20Comment.js)
 2. [Declare JavaScript Variables](02%20JavaScript%20Variable%20Declaration.js)
-3. Storing values with the Assignment operator
+3. [Storing values with the Assignment operator](03%20JavaScript%20Storing%20Value.js)
 4. JavaScript Case Sensitivity
 5. var VS let
 6. Read-only Variables
