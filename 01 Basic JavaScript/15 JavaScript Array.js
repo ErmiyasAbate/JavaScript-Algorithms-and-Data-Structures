@@ -7,4 +7,4 @@ let sandwich = ["Peanut butter", "Jelly", "Bread"];
 const animals = ["Elephant", "Lion", "Zebra", "Tiger", "Cheetah"];
 
 // JavaScript Arrays can contain deferent variables like both a string and a number
-let fullInfo = ["Abc", "Def", 26, "abc@def.com"];
+let fullInfo = ["Abc", "Def", 26, "abc@def.com", 5.7];
