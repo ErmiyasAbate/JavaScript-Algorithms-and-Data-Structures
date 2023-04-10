@@ -1,4 +1,10 @@
-﻿## JavaScript Algorithms and Data Structures
+﻿# JavaScript
+
+While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive. JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+
+![Brendan Eich](https://img.thedailybeast.com/image/upload/v1492199397/articles/2014/05/05/yes-brendan-eich-is-like-donald-sterling-he-s-even-scarier/140505-brendan-eich-cheat_xpheor.jpg "Brendan Eich")
+
+## JavaScript Algorithms and Data Structures
 
 ### **01 Basic JavaScript**
 
