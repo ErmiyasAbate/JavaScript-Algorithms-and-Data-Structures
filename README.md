@@ -9,4 +9,4 @@ While HTML and CSS control the content and styling of a page, JavaScript is used
 ### **01 Basic JavaScript**
 
 JavaScript is a scripting language we can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
-The folder contains fundamental programming concepts in JavaScript. And also basic data structures like numbers and strings, arrays, objects, functions, loops, if/else statements, and more.
+The folder contains fundamental programming concepts in JavaScript. This includes basic data structures like numbers and strings, arrays, objects, functions, loops, if/else statements, and more.
