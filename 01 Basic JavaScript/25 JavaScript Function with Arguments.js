@@ -11,3 +11,5 @@ function testFun(para1, para2) {
 
 // We can call the function with parameters
 testFun("Hello", "world!");
+
+testFun(23, 24);
