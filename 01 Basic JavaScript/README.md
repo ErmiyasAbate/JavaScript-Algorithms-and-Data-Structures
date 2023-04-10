@@ -7,7 +7,7 @@
 JavaScript is a scripting language we can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
 The folder contains fundamental programming concepts in JavaScript. And also basic data structures like numbers and strings, arrays, objects, functions, loops, if/else statements, and more.
 
-1. Comment Your JavaScript Code
+1. [Comment Your JavaScript Code](01%20JavaScript%20Comment.js "Comment Your JavaScript Code")
 2. Declare JavaScript Variables
 3. Storing values with the Assignment operator
 4. JavaScript Case Sensitivity
