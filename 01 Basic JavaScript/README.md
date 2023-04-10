@@ -3,7 +3,7 @@
 ## Basic JavaScript
 
 1. [Comment Your JavaScript Code](01%20JavaScript%20Comment.js)
-2. Declare JavaScript Variables
+2. [Declare JavaScript Variables](02%20JavaScript%20Variable%20Declaration.js)
 3. Storing values with the Assignment operator
 4. JavaScript Case Sensitivity
 5. var VS let
