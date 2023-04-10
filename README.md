@@ -33,3 +33,4 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 21. Manipulate Arrays With pop() Method
 22. Manipulate Arrays With shift() Method
 23. Manipulate Arrays With unshift() Method
+24. Write Reusable JavaScript with Functions
