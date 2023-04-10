@@ -27,4 +27,5 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 15. JavaScript Creating Array (Storing multiple values in a single variable)
 16. Nested JavaScript Array (Multi-Dimensional Array)
 17. Accessing JavaScript Arrays
-18. Modify Array Data With Indexes
+18. Modifying Array Data With Indexes
+19. Accessing and Modifying Multi-dimensional Arrays
