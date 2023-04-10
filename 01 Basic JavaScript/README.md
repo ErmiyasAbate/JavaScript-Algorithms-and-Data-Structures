@@ -27,3 +27,4 @@
 23. [Manipulate Arrays With unshift() Method](23%20JavaScript%20Unshift%20Method.js)
 24. [Write Reusable JavaScript with Functions](24%20JavaScript%20Function.js)
 25. [Passing Values to Functions with Arguments](25%20JavaScript%20Function%20with%20Arguments.js)
+26. [Return a Value from a Function with Return](26%20JavaScript%20Function%20with%20Return.js)
