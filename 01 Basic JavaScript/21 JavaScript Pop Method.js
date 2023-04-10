@@ -9,3 +9,12 @@ const oneDown = threeArr.pop();
 
 console.log(threeArr); // This  will display the value [1, 2]
 console.log(oneDown); // This will display the value 3
+
+// Example 2
+const myArray = [
+    ["John", 23],
+    ["Cat", 2]
+];
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray); // This will display the value ["Cat", 2]
+console.log(myArray); // This will display the value [["John", 23]]
