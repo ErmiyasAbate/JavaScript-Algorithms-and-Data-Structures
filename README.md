@@ -30,3 +30,4 @@ JavaScript is a scripting language we can use to make web pages interactive. It 
 18. Modifying Array Data With Indexes
 19. Accessing and Modifying Multi-dimensional Arrays
 20. Manipulate Arrays With push() Method
+21. Manipulate Arrays With pop() Method
