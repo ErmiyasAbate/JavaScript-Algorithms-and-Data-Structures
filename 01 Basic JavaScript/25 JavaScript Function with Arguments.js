@@ -13,3 +13,12 @@ function testFun(para1, para2) {
 testFun("Hello", "world!");
 
 testFun(23, 24);
+
+// Example 2
+function functionWithArgs (num1, num2) {
+    console.log(num1 + num2);
+}
+
+functionWithArgs(3, 4);
+functionWithArgs(100, 4);
+functionWithArgs(3878, 423782);
