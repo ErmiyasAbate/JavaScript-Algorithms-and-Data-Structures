@@ -16,3 +16,22 @@ function test(myCondition) {
 
 console.log(test(true));
 console.log(test(false));
+
+// Example 2
+// check if the number is positive or negative/zero
+
+function check(number) {
+    // check if number is greater than 0
+    if (number > 0) {
+        console.log("The number is positive");
+    }
+    // if number is not greater than 0
+    else {
+        console.log("The number is either a negative number or 0");
+    }
+
+    console.log("The if...else statement is easy");
+}
+
+check(7);
+check(-7);
