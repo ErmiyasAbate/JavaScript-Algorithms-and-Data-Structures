@@ -29,3 +29,4 @@
 25. [Passing Values to Functions with Arguments](25%20JavaScript%20Function%20with%20Arguments.js)
 26. [Return a Value from a Function with Return](26%20JavaScript%20Function%20with%20Return.js)
 27. [JavaScript Global Variables](27%20JavaScript%20Global%20Scope.js)
+28. [JavaScript Local Variables](28%20JavaScript%20Local%20Scope.js)
