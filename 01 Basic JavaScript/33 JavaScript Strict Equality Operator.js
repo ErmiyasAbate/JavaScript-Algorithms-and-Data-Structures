@@ -9,7 +9,9 @@
     For example:
         3 ===  3  // true
         3 === '3' // false
+*/
 
+/*
     Question:
         Use the strict equality operator in the if statement so the function will return the string Equal when val is strictly equal to 7.
 */
@@ -26,3 +28,19 @@ console.log(testStrict(7));
 console.log(testStrict(-7));
 console.log(testStrict(10));
 console.log(testStrict('7'));
+
+/*
+    Question 2
+        The compareEquality function in the editor compares two values using the equality operator.
+        Modify the function so that it returns the string Equal only when the values are strictly equal.
+*/
+
+function compareEquality(val1, val2) {
+    if (val1 === val2) {
+        return "Equal";
+    } else {
+        return "Not Equal";
+    }
+}
+
+console.log(compareEquality(10, "10"));
