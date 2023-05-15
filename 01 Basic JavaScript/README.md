@@ -32,3 +32,4 @@
 28. [JavaScript Local Variables](28%20JavaScript%20Local%20Scope.js)
 29. [JavaScript Undefined Values](29%20JavaScript%20Undefined%20Value.js)
 30. [JavaScript Boolean Values](30%20JavaScript%20Boolean%20Values.js)
+31. [JavaScript If Statement](31%20JavaScript%20If%20Statement.js)
