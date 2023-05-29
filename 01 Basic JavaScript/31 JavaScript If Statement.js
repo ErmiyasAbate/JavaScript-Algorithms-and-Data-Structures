@@ -35,3 +35,20 @@ function check(number) {
 
 check(7);
 check(-7);
+
+
+// Introducing ELse Statements
+function testElse(val) {
+    let result = "";
+
+    if (val > 5) {
+        result = "Bigger than 5";
+    } else {
+        result = "5 or Smaller";
+    }
+
+    // Only change code above this line
+    return result;
+}
+
+console.log(testElse(4));
