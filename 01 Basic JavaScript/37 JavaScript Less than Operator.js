@@ -46,3 +46,22 @@ console.log(testLessThan(10));
 console.log(testLessThan(110));
 console.log(testLessThan(11));
 console.log(testLessThan(30));
+
+
+// Less than or Equal
+function testLessOrEqual(val) {
+    if (val <= 12) {  // Change this line
+      return "Smaller Than or Equal to 12";
+    }
+  
+    if (val <= 24) {  // Change this line
+      return "Smaller Than or Equal to 24";
+    }
+  
+    return "More Than 24";
+  }
+
+console.log(testLessOrEqual(10));
+console.log(testLessOrEqual(110));
+console.log(testLessOrEqual(11));
+console.log(testLessOrEqual(5));
