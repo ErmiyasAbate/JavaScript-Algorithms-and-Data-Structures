@@ -44,3 +44,10 @@ function compareEquality(val1, val2) {
 }
 
 console.log(compareEquality(10, "10"));
+
+// We can also do like this
+function isEqual(a, b){
+    return a === b;
+}
+
+console.log(isEqual(10, "10"));
