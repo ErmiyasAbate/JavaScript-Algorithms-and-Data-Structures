@@ -37,3 +37,30 @@ console.log(caseInSwitch(1));
 console.log(caseInSwitch(4));
 console.log(caseInSwitch(3));
 console.log(caseInSwitch(2));
+
+// Default Case Option
+function fruits(val) {
+    let fruit = "";
+
+    switch (val) {
+        case 1:
+            fruit = "apple";
+            break;
+        case 2:
+            fruit = "benana";
+            break;
+        case 3:
+            fruit = "mango";
+            break;
+        default:
+            fruit = "orange";
+            break;
+    }
+
+    return fruit;
+}
+
+
+console.log(fruits(5)); // This will return Orange
+console.log(fruits(3));
+console.log(fruits(2));
