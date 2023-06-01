@@ -39,10 +39,10 @@ const testObjtwo = {
     "an entree": "hamburger",
     "my side": "veggies",
     "the drink": "water"
-  };
-  
-  const entreeValue = testObj["an entree"];
-  const drinkValue = testObj["the drink"];
+};
+
+const entreeValue = testObj["an entree"];
+const drinkValue = testObj["the drink"];
 
 /* 
     Another use of bracket notation on objects is to access a property which is stored as the value of a variable. 
@@ -57,3 +57,23 @@ const dogs = {
 const myDog = "Hunter";
 const myBreed = dogs[myDog];
 console.log(myBreed);
+
+// Updating Object Properties
+const ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+};
+
+ourDog.name = "Happy Camper";
+ourDog["legs"] = 4;
+console.log(ourDog);
+
+// Adding new Object Properties
+ourDog.bark = "Bow-Wow"; // or ourDog["bark"] = "Bow-Wow";
+console.log(ourDog);
+
+// Deleting Object Properties
+delete ourDog.bark;
+console.log(ourDog);
