@@ -140,3 +140,30 @@ function string_parameterize_two(name){
     return name.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, "").replace(/\s/g, "-");
 }
 console.log(string_parameterize("Robin Singh from USA."));
+
+/*
+    Questions 8
+        Write a JavaScript function to capitalize the first letter of a string.
+
+        Test Data :
+            console.log(capitalize('js string exercises'));
+            "Js string exercises"
+*/
+function capitalize(name){
+    return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+}
+console.log(capitalize('js string exercises'));
+
+/*
+    Questions 9
+        Write a JavaScript function to capitalize the first letter of each word in a string.
+
+        Test Data :
+            console.log(capitalize_Words('js string exercises'));
+            "Js String Exercises"
+*/
+function capitalize_Words(name){ 
+    return name.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
+console.log(capitalize_Words('js string exercises'));
