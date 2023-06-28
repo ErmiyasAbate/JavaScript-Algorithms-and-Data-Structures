@@ -31,6 +31,7 @@ for (let i = 0; i < 5; i++) {
 console.log(ourArrays);
 
 /*
+-------------------------------------------------------------------------------------------------------------------------------------
     For loops don't have to iterate one at a time. By changing our final-expression, we can count by even or odd numbers.
     
     For even numbers:-
@@ -55,6 +56,7 @@ for (let i = 1; i <= 9; i += 2) {
 console.log(ourOdd);
 
 /*
+-------------------------------------------------------------------------------------------------------------------------------------
     A for loop can also count backwards, so long as we can define the right conditions.
     
     In order to decrement by two each iteration, we'll need to change our initialization, condition, and final expression.
@@ -85,3 +87,25 @@ for(let i = 9; i > 0; i -= 2) {
 }
 
 console.log(oddDecrement);
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------
+    A common task in JavaScript is to iterate through the contents of an array. One way to do that is with a for loop. 
+*/
+const arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+
+for(let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+ /*
+    Example:
+        Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
+*/
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+
+for (let i = 0; i < myArr.length; i++){
+    total += myArr[i];
+}
+
+console.log(total);
