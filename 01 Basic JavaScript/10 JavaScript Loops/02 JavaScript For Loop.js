@@ -24,8 +24,32 @@
 */
 const ourArrays = [];
 
-for (let i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++) {
     ourArrays.push(i);
 }
 
 console.log(ourArrays);
+
+/*
+    For loops don't have to iterate one at a time. By changing our final-expression, we can count by even or odd numbers.
+    
+    For even numbers:-
+*/
+
+const ourEven = [];
+
+for (let i = 0; i < 10; i += 2) {
+    ourEven.push(i);
+}
+
+console.log(ourEven);
+
+// For odd numbers
+
+const ourOdd = [];
+
+for (let i = 1; i <= 9; i += 2) {
+    ourOdd.push(i);
+}
+
+console.log(ourOdd);
