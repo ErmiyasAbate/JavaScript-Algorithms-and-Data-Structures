@@ -73,7 +73,7 @@ console.log(decrementList);
 // For Even Decrement
 const evenDecrement = [];
 
-for(let i = 10; i > 0; i -= 2) {
+for (let i = 10; i > 0; i -= 2) {
     evenDecrement.push(i);
 }
 
@@ -82,7 +82,7 @@ console.log(evenDecrement);
 // For Odd Decrement
 const oddDecrement = [];
 
-for(let i = 9; i > 0; i -= 2) {
+for (let i = 9; i > 0; i -= 2) {
     oddDecrement.push(i);
 }
 
@@ -94,18 +94,52 @@ console.log(oddDecrement);
 */
 const arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 
-for(let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
- /*
+/*
     Example:
         Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
 */
 const myArr = [2, 3, 4, 5, 6];
 let total = 0;
 
-for (let i = 0; i < myArr.length; i++){
+for (let i = 0; i < myArr.length; i++) {
     total += myArr[i];
 }
 
 console.log(total);
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------------------
+    If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. 
+    Here is an example:
+*/
+const nestedArr = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+
+for (let i = 0; i < nestedArr.length; i++) {
+    for (let j = 0; j < nestedArr[i].length; j++) {
+        console.log(nestedArr[i][j]);
+    }
+}
+
+// Modify function multiplyAll so that it returns the product of all the numbers in the sub-arrays of arr.
+function multiplyAll(arr) {
+    let product = 1;
+    // Only change code below this line
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    // Only change code above this line
+    return product;
+}
+
+console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
+console.log(multiplyAll([[1], [2], [3]]));
+console.log(multiplyAll([[5, 1], [0.2, 4, 0.5], [3, 9]]));
