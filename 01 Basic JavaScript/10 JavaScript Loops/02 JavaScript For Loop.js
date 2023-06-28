@@ -53,3 +53,35 @@ for (let i = 1; i <= 9; i += 2) {
 }
 
 console.log(ourOdd);
+
+/*
+    A for loop can also count backwards, so long as we can define the right conditions.
+    
+    In order to decrement by two each iteration, we'll need to change our initialization, condition, and final expression.
+*/
+
+const decrementList = [];
+
+for (let i = 10; i > 0; i--) {
+    decrementList.push(i);
+}
+
+console.log(decrementList);
+
+// For Even Decrement
+const evenDecrement = [];
+
+for(let i = 10; i > 0; i -= 2) {
+    evenDecrement.push(i);
+}
+
+console.log(evenDecrement);
+
+// For Odd Decrement
+const oddDecrement = [];
+
+for(let i = 9; i > 0; i -= 2) {
+    oddDecrement.push(i);
+}
+
+console.log(oddDecrement);
