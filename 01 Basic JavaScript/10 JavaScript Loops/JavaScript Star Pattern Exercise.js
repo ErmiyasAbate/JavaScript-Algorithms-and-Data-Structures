@@ -113,3 +113,26 @@ function downTrianglePatternTwo(row) {
 }
 
 downTrianglePatternTwo(5)
+
+console.log('Hollow Triangle Star Pattern');
+let hollowTriangle = "";
+
+function hollowTrianglePattern(row) {
+    for (let i = 0; i <= row; i++) {
+        for (let j = 0; j < i; j++) {
+            if (i === row) {
+                hollowTriangle += "*";
+            } else {
+                if (j == 0 || j == i - 1) {
+                    hollowTriangle += "*";
+                } else {
+                    hollowTriangle += " ";
+                }
+            }
+        }
+        hollowTriangle += "\n";
+    }
+    console.log(hollowTriangle);
+}
+
+hollowTrianglePattern(6);
