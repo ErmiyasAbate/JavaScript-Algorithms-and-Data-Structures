@@ -136,3 +136,47 @@ function hollowTrianglePattern(row) {
 }
 
 hollowTrianglePattern(6);
+
+console.log('Javascript Pyramid Pattern');
+
+let pyramidPattern = "";
+
+function pyramidStarPattern(row) {
+    for (let i = 0; i < row; i++) {
+        for (let j = 0; j < row - i; j++) {
+            pyramidPattern += "  ";
+        }
+        for (let k = 0; k <= i; k++) {
+            pyramidPattern += "* ";
+        }
+
+        for (let l = 1; l <= i; l++) {
+            pyramidPattern += "* ";
+        }
+
+        pyramidPattern += "\n";
+    }
+
+    console.log(pyramidPattern);
+}
+
+pyramidStarPattern(5)
+
+console.log('OR');
+
+let pyramidPatternTwo = "";
+
+function pyramidStarPatternTwo(row) {
+    for (let i = 1; i <= row; i++) {
+        for (let j = 1; j <= row - i; j++) {
+            pyramidPatternTwo += "  ";
+        }
+        for (let k = 0; k < 2 * i - 1; k++) {
+            pyramidPatternTwo += "* ";
+        }
+        pyramidPatternTwo += "\n";
+    }
+    console.log(pyramidPatternTwo);
+}
+
+pyramidStarPatternTwo(5)
