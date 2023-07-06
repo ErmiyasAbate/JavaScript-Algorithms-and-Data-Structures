@@ -11,3 +11,7 @@ function convertToInteger(str) {
 }
 
 console.log(convertToInteger("007"))
+console.log(convertToInteger("40 years"))
+console.log(convertToInteger("   60   "))
+console.log(convertToInteger("10.33"))
+console.log(convertToInteger("He was 40"))
