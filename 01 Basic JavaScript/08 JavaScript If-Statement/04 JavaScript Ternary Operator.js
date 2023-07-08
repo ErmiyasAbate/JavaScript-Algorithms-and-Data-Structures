@@ -46,8 +46,8 @@ console.log(checkEquality(1, 2));
 
 function checkSign(num) {
     return num > 0 ? "Positive":
-    num < 0 ? "Negative": 
-    "Zero"
+        num < 0 ? "Negative": 
+        "Zero"
 }
 
 console.log(checkSign(10))
