@@ -29,3 +29,27 @@ function checkEquality(a, b) {
 }
 
 console.log(checkEquality(1, 2));
+
+/*
+    Multiple Conditional (Ternary) Operators
+
+    function findGreater(a, b) {
+        return a === b? "a is equals to b":
+            a > b ? "a is greater":
+                "b is greater
+    }
+
+    Example
+        In the checkSign function, use multiple conditional operators - following the recommended format used in findGreaterOrEqual - 
+        to check if a number is positive, negative or zero. The function should return positive, negative or zero.
+*/
+
+function checkSign(num) {
+    return num > 0 ? "Positive":
+    num < 0 ? "Negative": 
+    "Zero"
+}
+
+console.log(checkSign(10))
+console.log(checkSign(-10))
+console.log(checkSign(0))
